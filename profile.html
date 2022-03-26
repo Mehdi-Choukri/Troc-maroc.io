@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil | Maroc-Troc | مقايضة المغرب</title>
+    <link rel="icon" href="images/logoBalance.png">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/style1.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img class="symboleLogo" src="images/symbole.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Annonces</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Offres</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Signup.hbs">Transport</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="compte.html">Compte</a>
+            </li>
+                  <li class="nav-item">
+                <a class="nav-link" href="/QA.hbs">Aide</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-globe-europe"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Arabe</a>
+                  <a class="dropdown-item" href="#">Francais</a>
+                </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Chercher" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </nav>
+      <form class="frm-register">
+        <label>
+        
+            <div class="cadre-Image">
+                <p class="img-profile-text label-txt">Image</p>
+               
+                <img id="blah" src="#"  />
+                <input type="file" id="img-browse" onchange="readURL(this);" />
+            </div>
+        
+           
+          </label>
+        <label>
+          <p class="label-txt">Adresse mail</p>
+          <input id="mail-input"type="email" class="input" value="NadiRaj@hotmail.fr" required>
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">Nom complet</p>
+          <input  id="full-name-Input" type="text" class="input" value="Raji Nadia" required>
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+        <label>
+          <p class="label-txt">Role</p>
+          <input type="text" class="input" value="Administrater" required>
+          <div class="line-box">
+            <div class="line"></div>
+          </div>
+        </label>
+     
+          <div class="Register-btn">
+            <button id="btn-Enregister-profile" class="btn-submit" >Enregister</button>
+            <button  id="btn-reset-profile" class="btn-submit" >Reset</button>
+          </div>
+          
+       
+      </form>
+     
+    <div id="liens">
+        <div class="container">
+            <div class="content">
+                <ul>
+                    <li><a href="">Présentation du site Maroc-Troc</a></li>
+                    <li><a href="">S'identifier sur Maroc-Troc</a></li>
+                    <li><a href="">Utilisation de la messagerie et du chat</a></li>
+                    <li><a href="">La sécurité sur Maroc-Troc</a></li>
+                    <li><a href="">En cas de litige ...</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="content">
+                <div class="left">
+                    <p>© 2022 - MAROC-TROC</p>
+                </div>
+                <div class="center">
+                    <p>Conditions Générales d’Utilisation</p>
+                </div>
+                <div class="right">
+                    <img src="images/facebook.png" alt="">
+                    <img src="images/twitter.png" alt="">
+                    <img src="images/rss.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="Script/all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="Script/index.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script>
+
+    var rest_btn = document.getElementById("btn-reset-profile");
+// console.log("script is ok")
+//     rest_btn.addEventListener("click",  (e)=>{
+//         console.log(rest_btn+"is clicked");
+//         var mailValue = document.getElementById("mail-input");
+//         var fullNameValue = document.getElementById("full-name-Input");
+//         mailValue.nodeValue ="";
+//         fullNameValue.nodeValue ="";
+//         e.preventDefault();
+//     });
+
+    rest_btn.addEventListener("click",  function(e){
+    
+        var mailValue = document.getElementById("mail-input");
+        var fullNameValue = document.getElementById("full-name-Input");
+        var img = document.getElementById("img-browse");
+       
+        mailValue.value ="NadiRaj@hotmail.fr";
+        fullNameValue.value ="Raji Nadia";
+        img.style.display="block";
+        img.style.marginTop="-2px";
+        $('#blah').attr('src', null).width(90).height(90);
+        e.preventDefault();
+    });
+
+    function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+      $('#blah').attr('src', e.target.result).width(90).height(90);
+    };
+
+    reader.readAsDataURL(input.files[0]);
+    document.getElementById("img-browse").style.display="none";
+  }
+}
+
+</script>
+</body>
+</html>
